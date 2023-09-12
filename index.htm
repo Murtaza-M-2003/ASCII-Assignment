@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* script{
+            display: flex;
+        } */
+        /* .d2{
+            display: flex;
+        } */
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .cont1 {
+            width: 20%;
+            
+            
+        }
+
+        .cont2 {
+            width: 20%;
+        }
+
+        .cont3 {
+            width: 20%;
+        }
+
+        .cont3 {
+            width: 20%;
+        }
+        h2{
+            color: red;
+            font-weight: bold;
+            
+        }
+        
+    </style>
+
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="cont1">
+            <script>
+                document.write(" <h2>All 1-126 Letters</h2> <br>  ");
+
+                document.write("<br>");
+                let i = 0
+                while (i < 126) {
+                    i++
+                    result = String.fromCharCode(i);
+                    document.write("ASCII Value of" + " " + " " + i + " " + " = " + " " + result + "<br> <p>");
+                }
+            </script>
+        </div>
+        <div class="cont2">
+            <script>
+
+                document.write("<h2> Capital Letters</h2> <br> ");
+
+                document.write("<br>");
+
+
+                i = 64
+                while (i < 90) {
+                    i++
+                    result = String.fromCharCode(i);
+                    document.write("ASCII Value of" + " " + " " + i + " " + " = " + " " + result + "<br> <p>");
+                }
+
+
+
+            </script>
+        </div>
+        <div class="cont3">
+            <script>
+
+
+
+                document.write("<h2>Small Letters</h2> <br> ");
+
+                document.write("<br>");
+
+
+                i = 96
+                while (i < 122) {
+                    i++
+                    result = String.fromCharCode(i);
+                    document.write("ASCII Value of" + " " + " " + i + " " + " = " + " " + result + "<br>  <p>");
+                }
+            </script>
+        </div>
+
+        <div class="cont4">
+            <script>
+
+
+                document.write("<h2>Digits</h2> <br> ");
+
+                document.write("<br>");
+
+
+                i = 47
+                while (i < 57) {
+                    i++
+                    result = String.fromCharCode(i);
+                    document.write("ASCII Value of" + " " + " " + i + " " + " = " + " " + result + "<br>  <p>");
+                }
+            </script>
+        </div>
+    </div>
+
+</body>
+
+</html>
